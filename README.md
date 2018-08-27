@@ -2,6 +2,8 @@
 ## Introduction
 This toolbox was developed for my Computing and Artificial Intelligence degree dissertation at Sussex University.
 
+GasNets are neural networks augmented with neuromodulating gases, causing excitory or inhibitory effects in nodes. These gases cause temporal effects in the networks introducing interesting and complex dynamics in their behaviour.
+
 ## Comments
 The toolbox was arranged to provide a flexible implementation which users run gasnet simulations and a steady state genetic algorithm to train the networks for different scenarios.
 
