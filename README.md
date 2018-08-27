@@ -5,12 +5,12 @@ This toolbox was developed for my Computing and Artificial Intelligence degree d
 GasNets are neural networks augmented with neuromodulating gases, causing excitory or inhibitory effects in nodes. These gases cause temporal effects in the networks introducing interesting and complex dynamics in their behaviour.
 
 ## Comments
-The toolbox was arranged to provide a flexible implementation which users run gasnet simulations and a steady state genetic algorithm to train the networks for different scenarios.
+The toolbox was arranged to provide a flexible implementation with which users can run gasnet simulations and train the networks for different scenarios with the provided steady state genetic algorithm.
 
 It also includes a GUIDE gui (I didn't know any better), to allow users to explore the GasNets.
 
 Known limitations:
-* GA training was a little slow, the steady state implementation was not ideal for multithreading.
+* GA training was a little slow, the steady state implementation (derived from the literature) was not ideal for multithreading.
 * Limited optimisations, lots of on-the-fly allocations, poor use of memory management.
 * GUIDE GUI.
 
